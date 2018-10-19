@@ -1,0 +1,476 @@
+/* 1. Login / Register */
+h1.title-box-login {
+	text-align: center;
+	font-size: 16px;
+	color: #666666;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.loginSocial button {
+	margin: 0 5px;
+	padding-right: 10px;
+	text-indent: 30px;
+	line-height: 24px;
+	border-radius: 12px;
+	color: #fff;
+	border: none;
+	outline: none;
+}
+.loginSocial button:hover {
+	filter: alpha(opacity=60); 
+	-khtml-opacity: 0.6;      
+	-moz-opacity: 0.6;       
+	opacity: 0.6; 
+}
+.loginSocial button.btsocialloginfb {
+	background: #546ea6 url(//theme.hstatic.net/1000244873/1000313408/14/facebook.png?v=1542) no-repeat 0 center;
+}
+.loginSocial button.btsociallogingg{
+	background: #df5656 url(//theme.hstatic.net/1000244873/1000313408/14/googleplus.png?v=1542) no-repeat 0 center;
+}
+div#loginApp {
+	margin: 20px 0px;
+}
+#loginApp h4{
+	text-align: center;
+	font-size: 16px;
+	color: #666666;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+div#loginApp {
+	margin: 20px 0px;
+}
+.box-login-one {
+	margin-bottom: 30px;
+}
+.box-login-one .fv-login-social button {
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	border: none;
+	margin-right: 10px;
+}
+.liner-or {
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid #dfdfdf;
+}
+.liner-or span {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -13px;
+	background: #fff;
+	display: inline-block;
+	padding: 5px;
+	color: #999999;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+}
+.content-cus-form {
+	width: 410px;
+	margin: 0 auto;
+}
+.col_full {
+	display: block;
+	position: relative;
+}
+.content-cus-form .col_full > input {
+	height: 40px;
+	border-radius: 0;
+	font-weight: normal;
+	padding-top: 0;
+	padding-bottom: 0;
+	outline: none !important;
+	box-shadow: none !important;
+	padding-left: 42px;
+	width: 100%;
+	margin-bottom: 15px !important;
+	background: #f2f2f2;
+	border: none; 
+	color: #777;
+}
+.not-null {
+	position: absolute;
+	top: 10px;
+	right: 5px;
+	color: #ed1846;
+	font-size: 20px;
+	z-index: 1;
+}
+.icon_checkout {
+	background: url(//theme.hstatic.net/1000244873/1000313408/14/icon-checkout.png?v=1542) 0 0 no-repeat;
+	background-size: 300px;
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	position: absolute;
+	top: 9px;
+	left: 12px;
+}
+.icon_checkout.ico-email {
+	background-position: 0 -44px;
+}
+.icon_checkout.ico-pass {
+	background-position: 0 -154px;
+}
+.icon_checkout.ico-name {
+	background-position: 0 -22px;
+}
+.icon_checkout.ico-repass {
+	background-position: 0 -180px;
+}
+.require_symbol {
+	color: red!important;
+	display: none;
+}
+.content-cus-form .col_full.action{
+	text-align: center;
+}
+.content-cus-form .col_full > button {
+	width: 100%;
+	margin-bottom: 20px !important;
+	display: block;
+	height: 40px;
+	border: 1px solid #6f6a60;
+	background: transparent;
+	color: #6f6a60;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+.content-cus-form .col_full > button:hover {
+	border: 1px solid #eb0088;
+background: #eb0088;
+color: #fff;
+}
+.content-cus-form .col_full.action a {
+	text-decoration: underline !important;
+}
+.content-cus-form .col_full > button.cancel {
+	width: auto;
+	background: transparent !important;
+	border: none !important;
+	color: #4480fc;
+	text-transform: none;
+	text-shadow: none;
+	font-weight: bold;
+	margin: 0 !important;
+	float: none !important;
+	display: inline-block;
+	padding: 0;
+	font-size: 14px;
+	text-decoration: underline;
+}
+span.repassword_warning {
+	position: absolute;
+	top: -16px;
+	font-size: 12px;
+}
+#recover-password .acctitle i {
+	font-weight: normal;
+	margin-right: 5px;
+	font-size: 14px;
+	line-height: 40px;
+}
+#recover-password .col_full label {
+	font-weight: normal;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.errors li {
+	display: block;
+	font-size: 15px;
+	font-style: italic;
+	margin-bottom: 10px !important;
+	color: #d34836;
+}
+div#accept {
+	margin-bottom: 10px;
+}
+#accept #accepts_marketing {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+#accept span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+	font-size: 15px;
+	font-style: italic;
+}
+#accept span strong {
+	font-weight: normal;
+	color: #eb0088;
+}
+@media screen and (max-width: 991px){
+	.content-cus-form {
+		width: 320px;
+	}
+}
+@media screen and (max-width: 400px){
+	.content-cus-form {
+		width: 280px;
+	}
+}
+/* 2. Account info */
+.bg_w {
+	background: #fff;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+.content-wrap {
+	padding: 20px 0px;
+}
+.fancy-title h3 {
+	font-size: 24px;
+}
+div.account-table {
+	margin-bottom: 0px;
+}
+.table>thead>tr>th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #ddd;
+	padding: 8px;
+}
+.table >tbody tr>td{
+	padding: 8px;
+	vertical-align: middle;
+}
+.fancy-title {
+	position: relative;
+	margin-bottom: 10px;
+}
+#content p {
+	line-height: 1.8;
+}
+div.account-table p {
+	margin-bottom: 10px;
+}
+a.logout {
+	position: absolute;
+	right: 0;
+	top: 2px;
+	text-decoration: underline;
+	color: #000;
+	font-size: 13px;
+}
+.accountAddress a.logout.clickOut {
+	right: 130px;
+}
+.accountSidebar {
+	float: left;
+	width: 20%;
+}
+.feature_user {
+	padding: 10px;
+	background: #eb0088;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.accountNeworder tr td:first-child a{
+	color: #eb0088;
+}
+.feature_user span {
+	font-size: 13px;
+	line-height: 1.5;
+	display: block;
+}
+.feature_user h3 {
+	font-size: 15px;
+	line-height: normal;
+	color: #fff;
+}
+.link_account {
+	padding: 10px;
+}
+.link_account ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.link_account li {
+	padding: 5px 5px 5px 15px;
+}
+.link_account li.active {
+	background: #f1f1f1;
+	font-weight: bold;
+}
+.link_account li a {
+	color: #000;
+}
+.ctAccount {
+	float: left;
+	width: 80%;
+	padding: 0px 10px;
+}
+.detailAccount{
+	padding: 10px;
+}
+.feature_user .icon {
+	width: 45px;
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.feature_user .user {
+	display: inline-block;
+	vertical-align: middle;
+}
+.accountInfo > h3 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.user_info {
+	width: 50%;
+}
+.user_info h3, .accountNeworder h3, .accountAddress > h3 {
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #333;
+}
+.user_info h3, .accountNeworder h3, .accountAddress > h3, #addNewaddress > h3 {
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #333;
+}
+.user_info .main {
+	padding: 10px;
+	border: 1px solid #eaeaea;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+.user_info .main li {
+	display: block;
+	line-height: 20px;
+}
+.user_info .main li span.first {
+	width: 30%;
+	display: inline-block;
+}
+.account-table > p {
+	line-height: normal;
+	padding: 0px 15px;
+	font-style: italic;
+}
+.view_address p {
+	line-height: 1.4 !important;
+	font-size: 13px;
+}
+.accountAddress > h3{
+	//margin-bottom: 20px;
+	position: relative;
+}
+.view_address {
+	padding: 10px;
+	border: 1px dashed #ccc;
+	position: relative;
+}
+.address_defaul .view_address {
+	border: 1px dashed #eb0088;
+}
+.view_address p.name {
+	font-size: 15px;
+	font-weight: bold;
+}
+.address_actions > span {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 13px;
+	margin-top: 5px;
+}
+.address_actions > span a {
+	color: #333;
+	padding: 5px 15px;
+	border: 1px solid #ccc;
+	display: block;
+}
+span.label_defaul {
+	font-size: 11px;
+	position: absolute;
+	right: 10px;
+	color: #eb0088;
+}
+.address_table .input-group {
+	margin-bottom: 5px;
+}
+.action_bottom .btn {
+	padding: 0;
+	font-size: 13px;
+	width: 100px;
+	height: 35px;
+	border-radius: 0;
+	border: 1px solid #eb0088;
+color: #fff !important;
+background: #eb0088;
+text-transform: uppercase;
+outline: none;
+}
+.action_bottom .btn:hover{
+	color: #eb0088 !important;
+	background: transparent;
+}
+.address_table .input-group, .edit_address .input-group {
+	margin-bottom: 5px;
+}
+.address > div {
+	margin-bottom: 20px;
+}
+.detailAccount .header-page h1 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.detailAccount .content-page {
+	margin: 15px 0px;
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.feature_user .icon {
+		width: 30px;
+	}
+	.feature_user span {
+		font-size: 10px;
+	}
+	.feature_user h3 {
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 991px){
+	.accountSidebar, .ctAccount, .user_info {
+		width: 100% !important;
+	}
+	.accountSidebar{
+		margin-bottom: 20px;
+	}
+	.detailAccount div#layout-page > div {
+		padding: 0;
+	}
+}
+@media screen and (max-width: 767px) {
+	.ctAccount {
+		padding: 0;
+	}
+	.accountAddress {
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 370px) {
+	.accountInfo > h3 {
+		font-size: 14px;
+		padding-right: 65px;
+	}
+	.accountInfo .logout {
+		top: -2px;
+	}
+}

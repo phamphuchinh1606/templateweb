@@ -1,0 +1,79 @@
+/* CSS FOR HOME PAGE */
+/* ------------- BLOGS HOME PAGE ------------ */
+section#blogHome {
+	padding: 15px 0px;
+	text-align: center;
+	background: #fff;
+}
+.featuredTitle {
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+.featuredTitle:before {
+	content: '';
+	height: 1px;
+	background: #ddd;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 15px;
+	/* transform: translateY(-50%); */
+}
+.featuredTitle h2 {
+	display: inline-block;
+	line-height: normal;
+	border-bottom: 3px solid;
+	padding-right: 5px;
+	position: relative;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.featuredTitle h2:before, .featuredTitle h2:after{
+	content: '';
+}
+.featuredTitle h2:before {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	content: "";
+	left: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	background: url(icon-title.png) no-repeat 0 0;
+}
+.featuredTitle h2:after {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	content: "";
+	right: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	background: url(icon-title.png) no-repeat 0 0;
+}
+.featuredTitle h2 {
+	border: none;
+	font-style: italic;
+	font-size: 20px;
+	position: relative;
+	background: #fff;
+	padding: 0px 50px;
+}
+.featuredTitle .titleDesc {
+	font-size: 16px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+/* ------------- END BLOGS HOME PAGE ------------ */
